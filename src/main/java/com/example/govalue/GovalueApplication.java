@@ -1,17 +1,14 @@
 package com.example.govalue;
 
-
-import javax.sql.DataSource;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class GovalueApplication {
+public class GoValueApplication extends SpringBootServletInitializer {
 
-	public static void main(String[] args) {
-		SpringApplication.run(GovalueApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(GoValueApplication.class, args);
+    }
 
 }

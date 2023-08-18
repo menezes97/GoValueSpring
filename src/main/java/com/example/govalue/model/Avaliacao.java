@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Avaliacao {
+    
     private int id_avaliacao;
     private String descricao_avaliacao;
     private Date data_inicio_vigencia;
