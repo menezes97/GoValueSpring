@@ -1,2 +1,2 @@
 # GoValueSpring
-Projeto com Spring (em andamento)
+Project with Spring (in progress)
